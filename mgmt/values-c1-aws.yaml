@@ -2,5 +2,5 @@ cluster:
   name: esierra-capi-eks
   workerNodes: 3
   region: eu-west-1
- eks:
+eks:
   version: v1.23.3

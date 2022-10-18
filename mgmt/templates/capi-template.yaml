@@ -49,7 +49,7 @@ spec:
         apiVersion: infrastructure.cluster.x-k8s.io/v1beta1
         kind: AWSMachineTemplate
         name: {{ .Values.cluster.name }}-md-0
-      version: {{ .Values.cluster.eks.version }}
+      version: {{ .Values.eks.version }}
 ---
 apiVersion: infrastructure.cluster.x-k8s.io/v1beta1
 kind: AWSMachineTemplate
